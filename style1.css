@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header h1{
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: grey;
+}
+.header p{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    right: 50px;
+    bottom: 400px;
+    padding: 100;
+}
+#owner{
+    align-items: center;
+    background-color: grey;
+    color: honeydew;
+}
